@@ -1,0 +1,9 @@
+How to run my code?
+
+
+1. Download the HolStep dataset. http://cl-informatik.uibk.ac.at/cek/holstep/
+2. Unzip the .zip file and make sure the folder "holstep" are in the folder of "main.py".
+3. Run "main.py".
+4. Trained models are saved in the folder "models".
+5. Training loss, validation loss and test results are saved in the folder "Loss".
+6. Plots are saved in the folder "plots".
