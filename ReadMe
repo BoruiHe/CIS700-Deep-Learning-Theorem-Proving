@@ -7,3 +7,10 @@ How to run my code?
 4. Trained models are saved in the folder "models".
 5. Training loss, validation loss and test results are saved in the folder "Loss".
 6. Plots are saved in the folder "plots".
+
+Warning:
+
+1. Your first run will take lots of time because the code needs to prepare "vocab" and many preprossed data and save them.
+2. Do not delete anying in the same folder with "main.py". Otherwise you have to spend time on preparing those preprocessed data and the "vocab" file again.
+3. Delete models in the folder "models" if you want to run the training again. Otherwise my code will try to read the trained model and continue testing.
+4. The maximum of test samples is around 1400. The maximum of training samples is around 3000 (if i remember correctly).
